@@ -1,0 +1,19 @@
+{
+  "name": "url-screenshot-generator",
+  "version": "1.0.0",
+  "description": "A Node.js application that captures screenshots of URLs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
+}
